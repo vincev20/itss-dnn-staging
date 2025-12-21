@@ -66,6 +66,48 @@ body {
     /* [web:32][web:41] */
   }
 }
+/* Center the whole section content */
+.all-wrap .center-section {
+  display: flex;
+  /* make section container flex */
+  /* [web:11][web:12] */
+  justify-content: center;
+  /* center horizontally */
+  /* [web:12][web:15] */
+  align-items: center;
+  /* center vertically */
+  /* [web:12][web:15] */
+  min-height: 80vh;
+  /* give it height so vertical centering is visible */
+  /* [web:20] */
+}
+/* Make the inner grid not stretch full width and center it */
+.all-wrap .whowehelpgrid {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* Center text and button nicely */
+.all-wrap .header,
+.all-wrap .container-7 {
+  text-align: center;
+  /* [web:26] */
+}
+.all-wrap .button-group {
+  display: flex;
+  /* [web:18] */
+  justify-content: center;
+}
+/* Optional: tighten spacing for nicer look */
+.all-wrap .heading_h2 {
+  margin-bottom: 1rem;
+}
+.all-wrap .paragraph_large {
+  margin-bottom: 1rem;
+}
+.all-wrap .subheading-copy {
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
 
 :root {
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---container--container-width: 1280px;
