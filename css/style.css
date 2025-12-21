@@ -67,6 +67,17 @@ body {
   }
 }
 
+.all-wrap .heading_h1.testh1 {
+  font-size: 4rem;
+}
+
+/* Or with responsive sizing */
+.all-wrap .heading_h1.testh1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+
+
 :root {
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---container--container-width: 1280px;
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---container--container-padding-horizontal: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---spacing--1x);
