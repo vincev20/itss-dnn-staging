@@ -6,12 +6,6 @@ html {
 body {
   margin: 0;
 }
-body .all-wrap {
-  background-color: red;
-}
-#w-node-_0ddcbcdd-c266-a091-9ed1-c2b69634a0b1-9634a0ae > div.div-block-2.w-clearfix > h2 {
-  background-color: red;
-}
 .container-fluid > .container {
   /* styles */
   margin: 0 !important;
