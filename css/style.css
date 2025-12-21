@@ -12,6 +12,31 @@ body .all-wrap {
 #w-node-_0ddcbcdd-c266-a091-9ed1-c2b69634a0b1-9634a0ae > div.div-block-2.w-clearfix > h2 {
   background-color: red;
 }
+.container-fluid > .container {
+  /* styles */
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+#dnn_FluidPane_SyncPanel {
+  display: none;
+}
+#nav-breadcrumb {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+#browser-detection > div.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+#w-node-_0ddcbcdd-c266-a091-9ed1-c2b69634a0b1-9634a0ae > div.div-block-2.w-clearfix {
+  min-width: 561px;
+}
+#dnn_ctr3895_HtmlModule_lblContent > div > header {
+  padding-top: 120px;
+}
 
 :root {
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---container--container-width: 1280px;
