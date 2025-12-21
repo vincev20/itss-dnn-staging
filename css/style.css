@@ -31,6 +31,41 @@ body {
 #dnn_ctr3895_HtmlModule_lblContent > div > header {
   padding-top: 120px;
 }
+/* Ensure outer grid is really 2 columns */
+.all-wrap .grid_2-col {
+  display: grid;
+  /* [web:33][web:34] */
+  grid-template-columns: 1fr 1fr;
+  /* text left, image right */
+  /* [web:31][web:38] */
+  gap: 4rem;
+  align-items: center;
+  /* vertically align both columns */
+  /* [web:29][web:48] */
+}
+/* Let the text column stack nicely */
+.all-wrap .flex_horizontal.flex_vertical {
+  display: flex;
+  /* use flex for vertical layout */
+  /* [web:32][web:36] */
+  flex-direction: column;
+}
+/* Make image responsive inside its column */
+.all-wrap .image_cover {
+  display: block;
+  width: 100%;
+  /* scale with column width */
+  /* [web:37][web:45] */
+  height: auto;
+}
+/* Optional: mobile single-column stack */
+@media (max-width: 767px) {
+  .all-wrap .grid_2-col {
+    grid-template-columns: 1fr;
+    /* stack text above image */
+    /* [web:32][web:41] */
+  }
+}
 
 :root {
   --ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1757225547286_sizes---container--container-width: 1280px;
