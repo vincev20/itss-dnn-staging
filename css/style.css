@@ -31,8 +31,8 @@ body {
 #dnn_ctr3895_HtmlModule_lblContent > div > header {
   padding-top: 120px;
 }
-.darkencard:hover {
-  background-color: #f2f2f2;
+.all-wrap .darkencard:hover {
+  background-color: #fafafa !important;
 }
 /* Ensure outer grid is really 2 columns */
 .all-wrap .grid_2-col {
