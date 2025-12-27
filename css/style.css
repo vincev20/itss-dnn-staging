@@ -59,6 +59,18 @@ body {
   /* prevents “invisible” margin spacing */
   transition: max-height 0.25s ease, opacity 0.2s ease;
 }
+.stepcardbodyflex {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 40px !important;
+  padding: 35px 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  /* center when text is hidden */
+  align-items: center !important;
+  height: 100% !important;
+}
 /* Ensure outer grid is really 2 columns */
 .all-wrap .grid_2-col {
   display: grid;
