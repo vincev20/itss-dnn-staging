@@ -71,6 +71,54 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+.testsection {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.testimgsection {
+  display: flex !important;
+  justify-content: flex-end !important;
+  flex-direction: row !important;
+}
+.testimgsection img {
+  float: none !important;
+  display: inline-block;
+}
+/* Optional: mobile single-column stack */
+@media (max-width: 767px) {
+  .heading_h1 {
+    zoom: 1 !important;
+    font-size: 2.5rem !important;
+    /* 6 × 16px = 96px */
+    line-height: 1.05 !important;
+  }
+  .heading_h2 {
+    zoom: 1 !important;
+    font-size: 2rem !important;
+    /* 6 × 16px = 96px */
+    line-height: 1.05 !important;
+  }
+  .cust3 {
+    text-align: left !important;
+    font-size: 1.3rem !important;
+    /* 6 × 16px = 96px */
+    padding-top: 20px;
+  }
+  .faqh2 {
+    align-self: unset !important;
+  }
+  .herodivider {
+    width: 80%;
+  }
+  #testimonialsection p.subheading {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+.herodivider {
+  width: 100%;
+  border: 1px solid black;
+}
 .stepcardbodyflex {
   padding: 0 !important;
   margin: 0 !important;
