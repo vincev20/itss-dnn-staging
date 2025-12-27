@@ -31,10 +31,11 @@ body {
 #dnn_ctr3895_HtmlModule_lblContent > div > header {
   padding-top: 120px;
 }
-#w-node-_86c6bb2f-c595-1d46-2294-c5e7caf3db42-caf3db34 > div {
+.darkencard {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25) !important;
 }
-#w-node-_86c6bb2f-c595-1d46-2294-c5e7caf3db42-caf3db34 > div:hover {
+.darkencard:hover {
+  background-color: #f7f7f7;
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12) !important;
 }
 /* Ensure outer grid is really 2 columns */
