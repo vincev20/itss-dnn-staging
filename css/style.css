@@ -32,7 +32,8 @@ body {
   padding-top: 120px;
 }
 #w-node-_86c6bb2f-c595-1d46-2294-c5e7caf3db42-caf3db34 > div {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  background: red;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
 }
 #w-node-_86c6bb2f-c595-1d46-2294-c5e7caf3db42-caf3db34 > div:hover {
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
