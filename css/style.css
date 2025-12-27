@@ -34,6 +34,31 @@ body {
 .all-wrap .darkencard:hover {
   background-color: #fafafa !important;
 }
+.showhidecard {
+  min-height: 353px !important;
+}
+.showhidecard .showhidecardbody:hover p {
+  max-height: 200px;
+  /* set high enough for your text */
+  opacity: 1;
+}
+.showhidecardbody {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  /* center when text is hidden */
+  align-items: center !important;
+  height: 100% !important;
+  /* ensure there's height to center within */
+}
+.showhidecardbody p {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin: 0;
+  /* prevents “invisible” margin spacing */
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+}
 /* Ensure outer grid is really 2 columns */
 .all-wrap .grid_2-col {
   display: grid;
