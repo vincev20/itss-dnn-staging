@@ -71,16 +71,16 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-.testsection {
+.heroflexsection {
   display: flex !important;
   flex-direction: column !important;
 }
-.testimgsection {
+.herofleximgsection {
   display: flex !important;
   justify-content: flex-end !important;
   flex-direction: row !important;
 }
-.testimgsection img {
+.herofleximgsection img {
   float: none !important;
   display: inline-block;
 }
