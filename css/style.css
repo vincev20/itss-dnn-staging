@@ -37,35 +37,39 @@ body {
 .showhidecard {
   min-height: 280px !important;
 }
-.showhidecard .showhidecardbody:hover {
-  justify-content: flex-start !important;
-  /* center when text is hidden */
-}
-.showhidecard .showhidecardbody:hover p {
-  max-height: 200px;
-  /* set high enough for your text */
-  opacity: 1;
-}
 .showhidecardbody {
+  position: relative;
+  height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: center !important;
-  /* center when text is hidden */
-  align-items: center !important;
-  height: 100% !important;
-  /* ensure there's height to center within */
-  margin: 0 !important;
-  padding: 0 !important;
-  margin-top: 20px !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
   padding: 30px 20px !important;
+}
+.showhidecardbody .icon {
+  align-self: center;
+  transform: translateY(90px);
+  transition: transform 0.35s ease;
+  will-change: transform;
 }
 .showhidecardbody p {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
   margin: 0;
-  /* prevents “invisible” margin spacing */
-  transition: max-height 0.5s ease, opacity 1s ease, justify-content 1s ease;
+  transform: translateY(8px);
+  transition: max-height 0.45s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+.showhidecard:hover .showhidecardbody {
+  padding: 40px 20px !important;
+}
+.showhidecard:hover .showhidecardbody .icon {
+  transform: translateY(0);
+}
+.showhidecard:hover .showhidecardbody p {
+  max-height: 240px;
+  opacity: 1;
+  transform: translateY(0);
 }
 .stepcardbodyflex {
   padding: 0 !important;
