@@ -6,6 +6,17 @@ html {
 body {
   margin: 0;
 }
+.redmark {
+  background-color: red !important;
+}
+.featured-svg-container-override {
+  width: 80px;
+}
+.featured-svg-override {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
 .container-fluid > .container {
   /* styles */
   margin: 0 !important;
