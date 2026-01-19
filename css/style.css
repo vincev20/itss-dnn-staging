@@ -97,9 +97,6 @@ body {
 }
 /* Optional: mobile single-column stack */
 @media (max-width: 767px) {
-  .masteryt-section {
-    align-items: center !important;
-  }
   .guidecontainer {
     flex-direction: column-reverse !important;
   }
