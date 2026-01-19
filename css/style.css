@@ -126,7 +126,10 @@ body {
     margin-top: 20px;
   }
   .all-wrap .guidecontainer {
+    display: flex !important;
     flex-direction: column-reverse !important;
+    align-content: center !important;
+    gap: 20px !important;
   }
 }
 .herodivider {
